@@ -1,0 +1,39 @@
+.newsContainer{
+position: relative;
+    z-index: 1;
+
+}
+
+.coverImageBox{
+    display: flex;
+    margin: 25px;
+    max-width: min-content;
+    position: relative;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    border: solid 3px transparent;
+    border-radius: 50%;
+
+}
+.coverImageBox::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin: 3px;
+    border-radius: inherit;
+    background: linear-gradient(to right,lightskyblue,lightskyblue);
+}
+
+.coverImageBox img {
+    padding: 6px;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}

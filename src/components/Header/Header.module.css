@@ -1,0 +1,32 @@
+
+    .header {
+        grid-area: h;
+        background-color: lightseagreen;
+
+    }
+    .header img{
+        width: 20px;
+
+    }
+
+    .header .headerText{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .loginBlock{
+        float: right;
+        font-family: Arial;
+        padding: 14px 16px;
+        border-radius: 25px;
+    }
+
+    .loginBlock a {
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+    }

@@ -1,0 +1,39 @@
+
+
+    .usersPhoto {
+        padding: 10px;
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+    }
+
+    .selectPage{
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+    .blockItem{
+        border-radius: 10px;
+        padding: 14px 16px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        text-align: center;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+
+    @media screen and (max-width: 700px){
+        .blockItem{
+            border-radius: 10px;
+            padding: 14px 16px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            text-align: center;
+            width: 600px;
+            margin: 0 auto;
+        }
+    }

@@ -1,0 +1,139 @@
+.pageDialogs{
+    float: left;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 0;
+    padding: 48px 0 45px;
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 3;
+}
+.pageDialogsContent{
+
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.cleanList{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.scrollContainer{
+
+    position: relative;
+    bottom: 63px;
+    border-right: solid 1px #e7e8ec;
+    z-index: 5;
+    text-overflow: ellipsis;
+}
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+}
+
+.scrollOverflow{
+    overflow: hidden;
+    position: relative;
+    width: inherit;
+    height: inherit;
+    min-width: inherit;
+    max-height: inherit;
+    text-overflow: ellipsis;
+}
+.scrollOuter{
+    padding-right: 50px;
+    -webkit-tap-highlight-color: transparent;
+    width: inherit;
+    height: inherit;
+    min-width: inherit;
+    max-height: inherit;
+    text-overflow: ellipsis;
+
+
+}
+.pageDialogsContent>.scrollOverflow>.scrollOuter>.scrollInner{
+    min-height: 100%;
+}
+
+.scrollInner{
+    width: inherit;
+    position: relative;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+
+}
+.scrollContent{
+
+}
+
+.dialog{
+    padding: 0 0 0 15px;
+    cursor: pointer;
+    height: 63px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    border-top: solid 1px #e7e8ec;
+    text-overflow: ellipsis;
+
+}
+.dialog:hover{
+    position: relative;
+    background-color: #e7e8ec;
+    z-index: 1;
+}
+li{
+    text-align: -webkit-match-parent;
+}
+.dialogPhoto img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    padding: 9px 7px 8px 0;
+}
+.dialogContent{
+   text-overflow: clip;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+.dialog .dialogName{
+   margin-bottom: 7px;
+    margin-top:3px;
+    font-weight: 500;
+    width: 115px;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dialog .dialogDate{
+    position: relative;
+    float:right;
+    color: #6f7985;
+    left: 70px;
+
+}
+.dialog .textPreview{
+    white-space: nowrap;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #656565;
+    line-height: 16px;
+}
+.textPreview .dialogWho{
+    color: #818c99;
+    text-overflow: ellipsis;
+}
+.textPreview .dialogInnerText{
+    padding-left: 2px;
+
+}

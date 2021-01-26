@@ -1,0 +1,115 @@
+
+    .descriptionBlock{
+        padding: 10px;
+    }
+
+    .img{
+        width:100%;
+    }
+
+    .mainPhoto{
+
+        max-width: 200px;
+        grid-area: m;
+        margin-right: 10px;
+        border-radius: 2px;
+    }
+
+    .contact{
+        padding-left: 10px ;
+    }
+
+    .containerMain{
+        display: grid;
+        grid-template-areas:
+        'm p p p';
+        border-radius: 10px;
+        padding: 14px 16px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin: 10px auto;
+        width: 1000px;
+    }
+    .containerInfo{
+        border-radius: 10px;
+        padding: 14px 16px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin: 10px auto;
+        width: 1000px;
+        overflow-x: hidden;
+    }
+    .pageName {
+        grid-area: p;
+        font-size: 19px;
+        line-height: 25px;
+        font-weight: 400;
+        margin-left: 20%;
+        text-overflow: ellipsis;
+        color: black;
+    }
+    .savePhoto{
+
+    }
+    .profileStatus{
+        padding: 20px;
+        width: 170px;
+        white-space: nowrap;
+
+
+    }
+    .statusItem{
+
+    }
+    .aboutMe{
+        white-space: pre-wrap;
+    }
+
+    @media screen and (max-width: 1000px){
+        .containerMain{
+            display: grid;
+            grid-template-areas:
+        'm p p p';
+            border-radius: 10px;
+            padding: 14px 16px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            margin: 10px auto;
+            width: 900px;
+        }
+        .containerInfo{
+            display: grid;
+            border-radius: 10px;
+            padding: 14px 16px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            margin: 10px auto;
+            width: 900px;
+        }
+    }
+    @media screen and (max-width: 900px){
+        .containerMain{
+            display: grid;
+            grid-template-areas:
+        'm p p p';
+            border-radius: 10px;
+            padding: 14px 16px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            margin: 10px auto;
+            width: 800px;
+        }
+        .containerInfo{
+            display: grid;
+            border-radius: 10px;
+            padding: 14px 16px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            margin: 10px auto;
+            width: 800px;
+        }
+    }
+
+
+
+

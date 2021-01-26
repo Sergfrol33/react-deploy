@@ -1,0 +1,6 @@
+.spacer{
+    flex: 1;
+}
+.hover-able:hover{
+    cursor: pointer;
+}

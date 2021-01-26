@@ -1,0 +1,28 @@
+    html{
+        scroll-behavior: smooth;
+    }
+    .app-wrapper{
+        display: grid;
+        margin: 0 auto;
+        grid-template-areas:
+        "n n"
+        "c c";
+        grid-template-rows: 60px 1fr;
+        grid-template-columns: 2fr 10fr;
+        grid-gap: 10px;
+    }
+
+    .app-wrapper-content{
+        grid-area: c;
+
+    }
+
+    body{
+        background-color: #edeef0;
+
+    }
+
+    .app-wrapper .preloader {
+        width: 40px;
+        height: 40px;
+    }
