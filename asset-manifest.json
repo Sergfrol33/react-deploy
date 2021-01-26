@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.2eb48609.chunk.css",
+    "main.js": "/react-deploy/static/js/main.48cd0135.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.48cd0135.chunk.js.map",
+    "runtime-main.js": "/react-deploy/static/js/runtime-main.546de1b0.js",
+    "runtime-main.js.map": "/react-deploy/static/js/runtime-main.546de1b0.js.map",
+    "static/css/2.3cf5d70f.chunk.css": "/react-deploy/static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.e5e09828.chunk.js": "/react-deploy/static/js/2.e5e09828.chunk.js",
+    "static/js/2.e5e09828.chunk.js.map": "/react-deploy/static/js/2.e5e09828.chunk.js.map",
+    "static/css/3.ab1a0bd4.chunk.css": "/react-deploy/static/css/3.ab1a0bd4.chunk.css",
+    "static/js/3.3506ded2.chunk.js": "/react-deploy/static/js/3.3506ded2.chunk.js",
+    "static/js/3.3506ded2.chunk.js.map": "/react-deploy/static/js/3.3506ded2.chunk.js.map",
+    "static/css/4.87725cb2.chunk.css": "/react-deploy/static/css/4.87725cb2.chunk.css",
+    "static/js/4.352ea91e.chunk.js": "/react-deploy/static/js/4.352ea91e.chunk.js",
+    "static/js/4.352ea91e.chunk.js.map": "/react-deploy/static/js/4.352ea91e.chunk.js.map",
+    "static/css/5.c0f1b729.chunk.css": "/react-deploy/static/css/5.c0f1b729.chunk.css",
+    "static/js/5.00cde06a.chunk.js": "/react-deploy/static/js/5.00cde06a.chunk.js",
+    "static/js/5.00cde06a.chunk.js.map": "/react-deploy/static/js/5.00cde06a.chunk.js.map",
+    "index.html": "/react-deploy/index.html",
+    "precache-manifest.a03029554dd646a6d9dfa6afe37d1e66.js": "/react-deploy/precache-manifest.a03029554dd646a6d9dfa6afe37d1e66.js",
+    "service-worker.js": "/react-deploy/service-worker.js",
+    "static/css/2.3cf5d70f.chunk.css.map": "/react-deploy/static/css/2.3cf5d70f.chunk.css.map",
+    "static/css/3.ab1a0bd4.chunk.css.map": "/react-deploy/static/css/3.ab1a0bd4.chunk.css.map",
+    "static/css/4.87725cb2.chunk.css.map": "/react-deploy/static/css/4.87725cb2.chunk.css.map",
+    "static/css/5.c0f1b729.chunk.css.map": "/react-deploy/static/css/5.c0f1b729.chunk.css.map",
+    "static/css/main.2eb48609.chunk.css.map": "/react-deploy/static/css/main.2eb48609.chunk.css.map",
+    "static/js/2.e5e09828.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.e5e09828.chunk.js.LICENSE.txt",
+    "static/media/What How Meme in Minecraft.mp4": "/react-deploy/static/media/What How Meme in Minecraft.26e31879.mp4",
+    "static/media/default.png": "/react-deploy/static/media/default.b5a70c38.png",
+    "static/media/kal.jpg": "/react-deploy/static/media/kal.00beb79c.jpg",
+    "static/media/Пингвин упал.mp4": "/react-deploy/static/media/Пингвин упал.0965de31.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.546de1b0.js",
+    "static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.e5e09828.chunk.js",
+    "static/css/main.2eb48609.chunk.css",
+    "static/js/main.48cd0135.chunk.js"
+  ]
+}
